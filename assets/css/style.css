@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #FFFFFF; 
+}
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+.texto{
+    gap: 200px;
+}
+.texto >h1{
+    font-weight: 400;
+    color:#333333;
+}
+.contenedor-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    width: 250px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.clp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#Pesos{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color: #F0F0F0;
+    border-style: none;
+    border-radius: 10px;
+}
+.conversor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.contenedor-pesos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.contenedor-pesos > p{
+    color: #333333;
+    font-weight: 400;
+    font-size: larger;
+}
+#contenedor-moneda{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color: #F0F0F0;
+    border-style: none;
+    border-radius: 10px;
+}
+#calcular{
+    width: 200px;
+    height: 40px;
+    background-color: #007BFF;
+    border-color: #007BFF;
+    border-style: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.contenedor-monedaCv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.contenedor-monedaCv > p{
+    color: #333333;
+    font-weight: 400;
+    font-size: large;
+}
+#resultado{
+    color: #333333;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+.getResultado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+.getResultado > p{
+    color: #333333 ;
+}

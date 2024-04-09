@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor De Monedas</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="roboto-regular">
+    <div class="contenedor-principal">
+
+        <div class="texto">
+            <hr>
+            <br>
+            <h1>Conversor de monedas Nacional</h1>
+            <br>
+            <hr>
+        </div>
+
+        <!--Conversor-->
+        <main>
+            <section class="clp">
+                <!--Parte principal del conversor-->
+                <div class="contenedor-pesos">
+                    <p> Pesos CLP </p>
+                    <input type="number" placeholder="Ingresa la cantidad" id="Pesos">
+                </div>
+                <!--Seccion del conversor-->
+                <section class="conversor">
+                    
+                    <div class="contenedor-monedaCv">
+                        <p>Moneda A Convertir</p>
+                        <!--Formulario con opciones para el conversor-->
+                        <select id="contenedor-moneda">
+                            <!--Recorrer la api y hacer los append con innerTML-->
+                        </select>
+                    </div>
+                    <!--Boton-->
+                    <div class="getResultado">
+                        <button id="calcular" onclick="">
+                            Calcular
+                        </button>
+                        <p>o</p>
+                        <p>Presiona Enter</p>
+                    </div>
+                    <!--Valor de la conversion-->
+                    <section id="resultado-conversion">
+                        
+                    </section>
+                </section>
+            </section>
+        </main>
+        <section id="graficos">
+            <!--Aca ira el grafico-->
+            <canvas id="myChart">
+                
+            </canvas>
+        </section>
+    </div>
+    <!--Script de JavaScript-->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
